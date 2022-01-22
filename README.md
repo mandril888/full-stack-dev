@@ -1,6 +1,7 @@
 # create-svelte
 
-### [Tutorial:](https://github.com/gitpod-io/full-stack-web-development);
+### Tutorial
+[Become a Full Stack Developer with Svelte, Postgres, Vercel, and Gitpod](https://github.com/gitpod-io/full-stack-web-development);
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
