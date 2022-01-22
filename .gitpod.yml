@@ -2,7 +2,7 @@
 tasks:
   - init: npm install
     command: |
-      expot HMR_HOST=`gp url 300`
+      export HMR_HOST=`gp url 3000`
       npm run dev -- --open
 
 # ports:
