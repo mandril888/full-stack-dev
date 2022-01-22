@@ -3,9 +3,9 @@ tasks:
     command: |
       expot HMR_HOTS=`gp url 300`
       echo "Starting dev server..."
-      npm run dev
+      npm run dev -- --open
 
-ports:
-  - port: 3000
-    onOpen: open-browser
+# ports:
+#   - port: 3000
+#     onOpen: open-browser
  
