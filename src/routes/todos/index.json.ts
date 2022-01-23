@@ -13,21 +13,9 @@ export const get: RequestHandler = () => {
 }
 
 // HALF working
-// export async function post({ request }) {
-//     todos.push(request);
+export async function post({ request }) {
+    todos.push(request);
  
-//     return {
-//         status: 303,
-//         headers: {
-//             location: "/"
-//         }
-//     }
-// }
-
-// NOT working
-export const post: RequestHandler<{}, FormData> = (request) => {
-    todos.push(request.body.get("text"))
-
     return {
         status: 303,
         headers: {
@@ -35,3 +23,15 @@ export const post: RequestHandler<{}, FormData> = (request) => {
         }
     }
 }
+
+// NOT working
+// export const post: RequestHandler<{}, FormData> = (request) => {
+//     todos.push(request.body.get("text"))
+
+//     return {
+//         status: 303,
+//         headers: {
+//             location: "/"
+//         }
+//     }
+// }
